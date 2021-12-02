@@ -21,5 +21,5 @@ Antes de mais nada você deve executar o Protobuf para que sejam gerados os stub
 
 
 ## Gostaria de aprender mais sobre gRPC?
-Tenho uma página no Medium onde publico artigos: [Tony Augusto - Medium](https://tonyaugusto.medium.com/)
-Também tenho um curso de gRPC usando Micronaut e Kotlin: [Micronaut e gRPC - Crie um projeto do zero com gRPC e Kotlin](https://www.udemy.com/course/micronaut-e-grpc-crie-um-projeto-do-zero-com-grpc-e-kotlin/?referralCode=B0511367F040D62EBBEB)
+- Tenho uma página no Medium onde publico artigos: [Tony Augusto - Medium](https://tonyaugusto.medium.com/)
+- Também tenho um curso de gRPC usando Micronaut e Kotlin: [Micronaut e gRPC - Crie um projeto do zero com gRPC e Kotlin](https://www.udemy.com/course/micronaut-e-grpc-crie-um-projeto-do-zero-com-grpc-e-kotlin/?referralCode=B0511367F040D62EBBEB)

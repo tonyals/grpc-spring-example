@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "br.com.content4devs";
+
+package br.com.content4devs;
+
+service ProductsService {
+  rpc Create (ProductServiceRequest) returns (ProductServiceResponse) {}
+  rpc FindById (RequestById) returns (ProductServiceResponse) {}
+  rpc Delete (RequestById) returns (Empty) {}
+  rpc FindAll (Empty) returns (ProductsList) {}
+}
+
+message Empty {}
+
+message ProductsList {
+  repeated ProductServiceResponse products = 1;
+}
+
+message RequestById {
+  int64 id = 1;
+}
+
+message ProductServiceRequest {
+  string name = 1;
+  double price = 2;
+  int32 quantity_in_stock = 3;
+}
+
+message ProductServiceResponse {
+  int64 id = 1;
+  string name = 2;
+  double price = 3;
+  int32 quantity_in_stock = 4;
+}

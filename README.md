@@ -1,4 +1,7 @@
-# Exemplo de uso do gRPC em um projeto Spring Boot com Java
+# Gostaria de aprender passo a passo como esse projeto foi desenvolvido?
+Tenho disponível na Udemy um curso onde desenvolvo esta aplicação Spring Boot com gRPC e Java. Acesse: [Spring Boot e gRPC - Crie uma aplicação com gRPC e Java](https://www.udemy.com/course/spring-boot-e-grpc-crie-uma-aplicacao-com-grpc-e-java/?referralCode=D89F92BA0DE3FE9632F1)
+
+## Exemplo de uso do gRPC em um projeto Spring Boot com Java
 
 O Spring não oferece suporte nativo ao gRPC, portanto, neste projeto foi usado a lib [gRPC-Spring-Boot-Starter](https://yidongnan.github.io/grpc-spring-boot-starter/en/).
 
